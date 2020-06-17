@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+header{
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
+
+.Menu li{
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+.Menu li a{
+    color: darkred;
+    text-decoration: none;
+}
+
+.Menu li a:hover{
+    color: deepskyblue;
+}
+
+.Menu ul{
+    padding-top: 10px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
+
+.Contenu{
+    background-image: url(images/Contenu-background.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+
+.Contenu h1{
+    padding-top: 300px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+.Contenu p{
+    color: gray;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.Contenu-bas{
+    height: 700px;
+    background-color: #2b2b2b;
+}
+
+.Contenu-bas h2{
+    color: white;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.Contenu-bas p{
+    color: gray;
+    text-align: center;
+}
